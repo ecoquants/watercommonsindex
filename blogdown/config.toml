@@ -19,10 +19,10 @@ publishDir = "../docs"
     url = "/map/"
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
+    url = "https://github.com/ecoquants/watercommonsindex"
 [[menu.main]]
     name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    url = "https://twitter.com/Houzz"
 
 [params]
     description = "A website built through Hugo and blogdown."
