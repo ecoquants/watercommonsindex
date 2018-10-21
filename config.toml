@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "http://watercommonsindex.org/"
 languageCode = "en-us"
-title = "Water Commons Index"
+title = " Water Commons Index"
 theme = "hugo-agency-theme"
 publishDir = "docs"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$", "_old"]
