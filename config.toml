@@ -87,20 +87,20 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "Applications"
-    subtitle = "These applications provide a regional city planner view of where water recharge could be best incentivized (Recharge Index), and then a landscape designer perspective of which practices could provide the most benefit given the context of the given parcel (Permeable Practices)."
+    subtitle = "These applications provide a regional city planner view of where water recharge could be best incentivized (Recharge Index), and then a landscape designer perspective of which practices could provide the most benefit given the context of the given parcel (Permeable Practices Index)."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-bolt"
       title = "Recharge Index"
-      description = "[![](img/app_recharge-index_map-diagram.png)](http://eemsonline.org/?PROJECT=Water%20Commons&Author=Dustin%20Pearce)<br>Evaluate parcels within the watershed based on soil properties, topography and aquifer location."
+      description = "[![](img/app_recharge-index_map-diagram.png)](http://eemsonline.org/?PROJECT=Water%20Commons&Author=Dustin%20Pearce)<br>Evaluate parcels within the watershed based on impervious surface, soil properties, and aquifer location. Status: Beta."
       url = "http://eemsonline.org/?PROJECT=Water%20Commons&Author=Dustin%20Pearce"
 
     [[params.services.row.list]]
       icon = "fa-tint"
       title = "Permeable Practices Index"
-      description = "[![](img/app_permeable-practices.png)](https://ecoquants.shinyapps.io/wci-micro-app/)<br>Based on the context of a given parcel from the Recharge Index, various permeable practices are suggested."
+      description = "[![](img/app_permeable-practices.png)](https://ecoquants.shinyapps.io/wci-micro-app/)<br>Based on the context of a given parcel from the Recharge Index, various permeable practices are suggested. Status: Pre-alpha."
       url = "https://ecoquants.shinyapps.io/wci-micro-app/"
 
   # Portfolio section
