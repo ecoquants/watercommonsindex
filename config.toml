@@ -94,14 +94,14 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-bolt"
       title = "Recharge Index"
-      description = "![](img/app_recharge-index_map-diagram.png)<br>Evaluate parcels within the watershed based on soil properties, topography and aquifer location."
+      description = "[![](img/app_recharge-index_map-diagram.png)](http://eemsonline.org/?PROJECT=Water%20Commons&Author=Dustin%20Pearce)<br>Evaluate parcels within the watershed based on soil properties, topography and aquifer location."
       url = "http://eemsonline.org/?PROJECT=Water%20Commons&Author=Dustin%20Pearce"
 
     [[params.services.row.list]]
       icon = "fa-tint"
       title = "Permeable Practices Index"
-      description = "![](img/app_permeable-practices.png)<br>Based on the context of a given parcel from the Recharge Index, various permeable practices are suggested."
-      url = "#"
+      description = "[![](img/app_permeable-practices.png)](https://ecoquants.shinyapps.io/wci-micro-app/)<br>Based on the context of a given parcel from the Recharge Index, various permeable practices are suggested."
+      url = "https://ecoquants.shinyapps.io/wci-micro-app/"
 
   # Portfolio section
   [params.portfolio]
@@ -117,12 +117,12 @@ googleAnalytics = ""
       client = "Client"
       date = "Date"
       category = "Category"
-      buttonText = "Close project"
+      buttonText = "Close practice"
 
 
     # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     endpoint = "Be part<br>of our<br>story!"
@@ -160,9 +160,9 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    title = "Our team"
+    subtitle = "The Water Commons Alliance is a small multi-disciplinary group of designers and scientists interested in developing data-driven tools for enhancing California’s water supply."
+    #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -224,7 +224,7 @@ googleAnalytics = ""
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
@@ -253,7 +253,7 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    #subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"
     # netlify = true
 
@@ -274,15 +274,15 @@ googleAnalytics = ""
     # Provide the post URL for the form and depending on the provider
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
-
-    email = "your@email.com"
+    email = "ben@ecoquants.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
     #error = "Message could not be send. Please contact us at mail@example.com instead."
 
     [params.contact.captcha]
-      # sitekey = ""
+    # https://www.google.com/recaptcha
+    sitekey = "6LfbCnYUAAAAAIcA4nbcLl25rViUVeqHz_G2VWqe"
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
