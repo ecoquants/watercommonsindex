@@ -169,7 +169,7 @@ googleAnalytics = ""
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "matt-gries.png"
-      name = "Matt Gries"
+      name = "Matt Gries (AIA)"
       position = "Architect"
       #reportsTo = "CTO"
       livesIn = "Santa Barbara, CA"
@@ -187,8 +187,8 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "meg-west.png"
-      name = "Meg West"
+      img = "meg-west.jpg"
+      name = "Meg West (LEED AP)"
       livesIn = "Ashland, OR"
       position = "Landscape Designer"
       bio = """Meg West is the principal Landscape Architect at [Meg West Design](http://www.megwestdesign.com). She was inspired to run for a seat on the [Goleta Water District Board of Directors](http://www.goletawater.com/about-the-district/board-of-directors) in 2014 after serving on the Goleta Planning Commission for four years.  Steering the Goleta Water District towards more sustainable long-term water supply during this drought has deepened her understanding of water issues dramatically. She is now the Vice President of the Board and is active in local and statewide efforts to promote and implement integrated solutions for water supply, soil health, pollution, and climate."""
@@ -200,7 +200,7 @@ googleAnalytics = ""
 
     [[params.team.members]]
       img = "ben-best.jpg"
-      name = "Ben Best"
+      name = "Ben Best (PhD)"
       livesIn = "Santa Barbara, CA"
       position = "Environmental Data Scientist"
       bio = """Ben Best is an environmental data scientist with a background in marine spatial ecology. Through his newly formed [EcoQuants](http://ecoquants.com/) consultancy, he is working with NASA, NOAA, National Renewable Lab and the National Park Service. He has taught a variety of graduate courses at UC Santa Barbara: GIS, Advanced GIS, Environmental Informatics, Landscape Ecology and Conservation Planning. He was the senior analyst for the Ocean Health Index and completed a PhD at Duke University in the Marine Geospatial Ecology Lab."""
@@ -212,9 +212,9 @@ googleAnalytics = ""
       
     [[params.team.members]]
       img = "dustin-pearce.jpg"
-      name = "Dustin Pearce"
+      name = "Dustin Pearce (MESM)"
       livesIn = "Santa Barbara, CA"
-      position = "Environmental Data Scientist"
+      position = "GIS Analyst"
       bio = """Dustin Pearce joined the [Conservation Biology Institute](https://consbio.org/) in December of 2015. His background in geospatial sciences has focused on the interplay of working agricultural lands, natural lands, and renewable energy development in California. Growing up in the San Joaquin Valley, his connection with agricultural and working lands initiated his interest in biology. Dustin holds a M.E.S.M. in Economics and Politics of the Environment from the Bren School of Environmental Science & Management, and a B.S. in Conservation Biology from Arizona State University. His work with the Conservation Biology Institute is focused on stakeholder engagement and smart planning for renewable energy development and environmental protection throughout California."""
       social = [
         ["fa-twitter", "#"],

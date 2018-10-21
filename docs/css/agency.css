@@ -200,9 +200,6 @@ fieldset[disabled] .btn-xl.active {
     height: 50px;
     max-width: 250px;
     margin: -15px;
-    margin-right: 100px;
-    position: relative;
-    top: 6px
 }
 
 @media(min-width:768px) {
