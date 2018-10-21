@@ -18,15 +18,11 @@
     </div>
     <div class="row">
       <div class="col-lg-12">
+        <!--bbest fixed 2018-10-20 per https://github.com/digitalcraftsman/hugo-agency-theme/issues/117 -->
         <form
           method="POST"
           name="sentMessage"
-          id="contactForm
-          {{- if $contact.netlify -}}
-            " netlify
-          {{- else -}}
-            " action="{{- $contact.postURL | default (printf "https://formspree.io/%s" (or $contact.email .Site.Params.email)) -}}"
-          {{- end -}}>
+          action="{{- $contact.postURL | default (printf "https://formspree.io/%s" (or $contact.email .Site.Params.email)) -}}"
 
           <fieldset>
             <div class="row">
