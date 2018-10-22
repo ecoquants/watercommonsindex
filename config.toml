@@ -92,15 +92,19 @@ googleAnalytics = ""
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-bolt"
+      #icon = "fa-bolt"
+      icon = "icon_recharge-index.svg"
+      image = "app_recharge-index_map-diagram.png"
       title = "Recharge Index"
-      description = "[![](img/app_recharge-index_map-diagram.png)](http://eemsonline.org/?PROJECT=Water%20Commons&Author=Dustin%20Pearce)<br>Evaluate parcels within the watershed based on impervious surface, soil properties, and aquifer location. Status: Beta."
+      description = "Evaluate parcels within the watershed based on impervious surface, soil properties, and aquifer location. Status: Beta."
       url = "http://eemsonline.org/?PROJECT=Water%20Commons&Author=Dustin%20Pearce"
 
     [[params.services.row.list]]
-      icon = "fa-tint"
+      #icon = "fa-tint"
+      icon = "icon_permeable-practices.svg"
+      image = "app_permeable-practices.png"
       title = "Permeable Practices Index"
-      description = "[![](img/app_permeable-practices.png)](https://ecoquants.shinyapps.io/wci-micro-app/)<br>Based on the context of a given parcel from the Recharge Index, various permeable practices are suggested. Status: Pre-alpha."
+      description = "Based on the context of a given parcel from the Recharge Index, various permeable practices are suggested. Status: Pre-alpha."
       url = "https://ecoquants.shinyapps.io/wci-micro-app/"
 
   # Portfolio section

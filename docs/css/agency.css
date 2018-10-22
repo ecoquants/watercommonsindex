@@ -202,6 +202,12 @@ fieldset[disabled] .btn-xl.active {
     margin: -15px;
 }
 
+.service-icon {
+    height: 150px;
+    max-width: 250px;
+    /*margin: -15px;*/
+}
+
 @media(min-width:768px) {
     .navbar-brand>img {
         height: 50px;
