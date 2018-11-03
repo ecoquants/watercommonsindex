@@ -97,7 +97,8 @@ googleAnalytics = ""
       image = "app_recharge-index_map-diagram.png"
       title = "Recharge Index"
       description = "Evaluate parcels within the watershed based on impervious surface, soil properties, and aquifer location. Status: Beta."
-      url = "http://eemsonline.org/?PROJECT=Water%20Commons&Author=Dustin%20Pearce"
+      #url = "http://eemsonline.org/?PROJECT=Water%20Commons&Author=Dustin%20Pearce"
+      url = "https://databasin.org/maps/new#datasets=be1820b572d14dab8fec6377f894e42b"
 
     [[params.services.row.list]]
       #icon = "fa-tint"
