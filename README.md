@@ -9,7 +9,7 @@ watercommonsindex.org
 
 ```r
 blogdown::new_site(theme = "digitalcraftsman/hugo-agency-theme")
-blogdown::build_site()
+#blogdown::build_site()
 blogdown::serve_site()
 ```
 
